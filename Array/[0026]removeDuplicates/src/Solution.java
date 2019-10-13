@@ -1,3 +1,6 @@
+/**
+ * 26. 删除排序数组中的重复项
+ */
 public class Solution {
     public int removeDuplicates(int[] nums) {
         int count = nums.length;
