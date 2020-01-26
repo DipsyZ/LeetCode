@@ -29,9 +29,23 @@ public class Solution {
         return count;
     }
 
-//    public static void main(String[] args) {
+    public static void main(String[] args) {
 //        int[] nums = new int[]{1,1,2};
 //        int count = new Solution().removeDuplicates(nums);
-//    }
+
+        Integer i = new Integer(100);
+        Integer j = new Integer(100);
+        Integer a = 100;
+        int b = 100;
+        System.out.println(i.equals(j));
+        System.out.println("i:hashcode" + i.hashCode());
+        System.out.println("j:hashcode" + j.hashCode());
+        System.out.println(i.equals(a));
+        System.out.println(i.equals(b));
+        System.out.println(a.equals(b));
+
+        Object o = new Object();
+        o.hashCode();
+    }
 
 }
