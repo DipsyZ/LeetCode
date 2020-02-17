@@ -1,7 +1,7 @@
 /**
  * 26. 删除排序数组中的重复项
  */
-public class Solution {
+public class Solution26 {
     public int removeDuplicates(int[] nums) {
         int count = nums.length;
         for(int i = 0; i < nums.length-1; i++){
@@ -31,7 +31,7 @@ public class Solution {
 
     public static void main(String[] args) {
 //        int[] nums = new int[]{1,1,2};
-//        int count = new Solution().removeDuplicates(nums);
+//        int count = new Solution66().removeDuplicates(nums);
 
         Integer i = new Integer(100);
         Integer j = new Integer(100);
